@@ -1,15 +1,11 @@
 import React from 'react';
-import Menu from '../menu/Menu';
 
 class Eventos extends React.Component{
 
     render(){
         return(
-            <>
-            <Menu/>
-
-            </>
-        )
+            <h1>Eventos</h1>
+        );
     }
 }
 
