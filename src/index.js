@@ -22,11 +22,11 @@ ReactDOM.render(
       <Switch>
 
           {/* Páginas */}
-          <Route exact path='/' Component={Home} />
-          <Route path='/nosotros' Component={Nosotros} />
-          <Route path='/eventos' Component={Eventos} />
-          <Route path='/donaciones' Component={Donaciones} />  
-          <Route path='/contactos' Component={Contacto} /> 
+          <Route exact path='/' component={Home} />
+          <Route path='/nosotros' component={Nosotros} />
+          <Route path='/eventos' component={Eventos} />
+          <Route path='/donaciones' component={Donaciones} />  
+          <Route path='/contactos' component={Contacto} /> 
 
         </Switch>
     </div>

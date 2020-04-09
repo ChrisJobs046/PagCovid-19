@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "PagCovid-19",
+			"path": "node_modules\\PagCovid-19"
+		},
+		{
+			"name": "PagCovid-19",
+			"path": "PagCovid-19\\PagCovid-19"
+		}
+	],
+	"settings": {}
+}
