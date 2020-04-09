@@ -26,7 +26,7 @@ ReactDOM.render(
           <Route path='/nosotros' component={Nosotros} />
           <Route path='/eventos' component={Eventos} />
           <Route path='/donaciones' component={Donaciones} />  
-          <Route path='/contactos' component={Contacto} /> 
+          <Route path='/contacto' component={Contacto} /> 
 
         </Switch>
     </div>

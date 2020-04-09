@@ -1,10 +1,31 @@
 import React from 'react';
 
+import Menu from '../menu/Menu';
+import Footer from '../footer/Footer';
+
 class Donaciones extends React.Component{
 
     render(){
         return(
-            <h1>Donaciones</h1>
+            <>
+
+			<Menu />
+
+			<main role="main" className="flex-shrink-0 mt-5">
+
+		        <div className="container">
+		  	  		
+		  	  		
+
+		  	  		<hr className="featurette-divider" />
+
+		        </div>
+
+	  		</main>
+
+	  		<Footer />
+
+	  		</>
         );
     }
 } 
