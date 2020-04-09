@@ -3,16 +3,18 @@ import React from 'react';
 import Menu from '../menu/Menu';
 import Footer from '../footer/Footer';
 
-class Contacto extends React.Component{
 
-    render(){
-        
-        return(
-            <>
+class Contacto extends React.Component {
 
-            <Menu /> 
+	render() {
 
-            <main role="main" className="flex-shrink-0 mt-5">
+		return(
+
+			<>
+
+			<Menu />
+
+			<main role="main" className="flex-shrink-0 mt-5">
 
 				<div className="container">
 
@@ -21,8 +23,7 @@ class Contacto extends React.Component{
             		<div className="row">
 
             			<div className="col-md-6">
-		        
-						
+		    
 
 						</div>
 
@@ -36,12 +37,15 @@ class Contacto extends React.Component{
 				</div>	
 
 	  		</main>
-              
-	  		<Footer/>
 
-            </>
-        )
-    }
+	  		<Footer />
+
+	  		</>
+
+		)
+
+	}
+
 }
 
 export default Contacto;

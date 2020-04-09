@@ -1,25 +1,32 @@
 import React from 'react';
+
 import Menu from '../menu/Menu';
 import Footer from '../footer/Footer';
 
-class Nosotros extends React.Component{
 
-    render(){
-        return(
+class Nosotros extends React.Component {
 
-            <>
+	render() {
 
-            <Menu/>
+		return(
 
-            <main role="main" className="flex-shrink-0 mt-5">
+			<>
 
-            </main>
+			<Menu />
 
-            <Footer />
+			<main role="main" className="flex-shrink-0 mt-5">
+		        	
 
-            </>
-        )
-    }
+	  		</main>
+
+	  		<Footer />
+
+	  		</>
+
+		)
+
+	}
+
 }
 
 export default Nosotros;

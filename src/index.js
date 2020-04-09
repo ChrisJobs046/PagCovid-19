@@ -5,15 +5,15 @@ import './index.css';
 //import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'; // Archivo CSS de Bootstrap 4
-import '../node_modules/bootstrap/dist/js/bootstrap.min.js'; // Archivo Javascript de Bootstrap 4
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
 
-//Paginas del sitio web
+// Páginas del Sitio Web
 import Home from './componentes/home/Home'; 
 import Nosotros from './componentes/nosotros/Nosotros';
 import Eventos from './componentes/eventos/Eventos';
+import Contacto from './componentes/contacto/Contacto';
 import Donaciones from './componentes/donaciones/Donaciones';
-import Contacto from './componentes/contacto/Contacto'
 
 // Configuración de la rutas del Sitio Web 
 ReactDOM.render(
