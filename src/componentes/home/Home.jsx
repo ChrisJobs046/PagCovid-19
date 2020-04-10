@@ -1,39 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-import Menu from '../menu/Menu';
 import Footer from '../footer/Footer';
 
 
-class Home extends React.Component {
-
-	render() {
-
+class Home extends Component{
+	render(){
 		return(
-
-			<>
-
-			<Menu />
-
-			<main role="main" className="flex-shrink-0 mt-5">
-
-		        <div className="container">
-		  	  		
-		  	  		
-
-		  	  		<hr className="featurette-divider" />
-
-		        </div>
-
-	  		</main>
-
-	  		<Footer />
-
-	  		</>
-
-		)
-
+			<div>
+				<div>
+					<h1>Hola</h1>
+				</div>
+				<Footer/>
+			</div>
+		);
 	}
-
 }
 
 export default Home;

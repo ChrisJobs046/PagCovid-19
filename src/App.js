@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import './App.css';
 
+import Menu from './componentes/menu/Menu';
 import Home from './componentes/home/Home'; 
 import Nosotros from './componentes/nosotros/Nosotros';
 import Eventos from './componentes/eventos/Eventos';
@@ -14,6 +15,9 @@ class App extends Component {
     render(){
        return(
             <div>
+                <div>
+                    <Menu/>
+                </div>
                 <Switch>
                     <Route path='/' exact component={Home} />
                     <Route path='/nosotros' component={Nosotros} />

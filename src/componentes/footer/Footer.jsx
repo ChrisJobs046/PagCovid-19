@@ -1,19 +1,15 @@
-import React from 'react';
+import React, {Component}from 'react';
  
  
-class Footer extends React.Component {
+class Footer extends Component {
  
   render() {
- 
     return (
         <footer className="container">
-            <p className="float-right"><un href="#">Subir</un></p>
-            <p>&copy; {(new Date().getFullYear())} Movimiento contra el covid19, Inc. &middot; <un href="#">Política de Privacidad</un> &middot; <un href="#">Términos</un></p>
+            <p>&copy; {(new Date().getFullYear())} Movimiento contra el Covid-19, Inc. &middot; <un href="#">Política de Privacidad</un> &middot; <un href="#">Términos</un></p>
         </footer>
     );
-    
   }
- 
 }
  
 export default Footer;
